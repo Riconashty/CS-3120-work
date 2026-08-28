@@ -1,4 +1,4 @@
-# Near-Earth Asteroid Hazard Classification
+# Near-Earth Object Hazard Classification
 
 Binary classification of NASA Near-Earth Objects (NEOs) as potentially hazardous, using only measurable orbital and physical characteristics.
 
@@ -9,7 +9,7 @@ Binary classification of NASA Near-Earth Objects (NEOs) as potentially hazardous
 
 ## Dataset
 
-2,000 near-Earth asteroids pulled from NASA's [NeoWs](https://api.nasa.gov/) (Near Earth Object Web Service) API, 39 raw fields per record.
+2,000 near-Earth objects pulled from NASA's [NeoWs](https://api.nasa.gov/) (Near Earth Object Web Service) API, 39 raw fields per record.
 
 **Target:** `potentially_hazardous` — a boolean flag indicating a theoretical collision risk with Earth. Class balance is 533 hazardous / 1,467 not hazardous (26.7% positive).
 
